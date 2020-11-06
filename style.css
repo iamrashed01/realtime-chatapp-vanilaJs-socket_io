@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@400;500;700&display=swap');
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Turret Road', cursive;
+  background: rgb(27, 27, 27);
+  color: #e6e0e0;
+}
+
+#app {
+  width: 500px;
+  margin: auto;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 2px;
+  background: #2a2d2c;
+}
+
+#messages {
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+#messagesMain {
+  height: 400px;
+  overflow-y: auto;
+}
+
+.client_msg {
+  float: left;
+  clear: both;
+  background: #3d4a50;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.my_msg {
+  text-align: right;
+  float: right;
+  clear: both;
+  background: #3494c0;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+input {
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  background: #413f3f;
+  border: none;
+  color: #e6e0e0;
+  padding: 0 5px;
+  outline: none;
+  font-family: 'Turret Road', cursive;
+}
+
+input:focus {
+  outline: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #464747;
+}
+
+::-webkit-scrollbar-track {
+  background: #212323;
+  border-radius: 10px;
+}
