@@ -1,0 +1,28 @@
+{
+  "name": "chatapp-with-socketio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamrashed01/realtime-chatapp-vanilaJs-socket_io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamrashed01/realtime-chatapp-vanilaJs-socket_io/issues"
+  },
+  "homepage": "https://github.com/iamrashed01/realtime-chatapp-vanilaJs-socket_io#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
